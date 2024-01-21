@@ -1,0 +1,28 @@
+.form{
+    background-color: #242424;
+    color: white;
+    padding: 1rem;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    border: 2px solid blue
+}
+
+.form input{
+    outline: none;
+    padding: 4px 5px;
+}
+
+.button{
+    background-color: #224688;
+    padding: .5rem;
+    font-size: 1.2rem;
+    color: yellow;
+    align-self: center;
+    transition: all 0.2s;
+}
+
+.button:active{
+    scale: 90%;
+}
